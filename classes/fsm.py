@@ -1,9 +1,8 @@
 from aiogram.dispatcher.filters.state import StatesGroup, State
 
 class UserStatus(StatesGroup):
-    get_date = State()
-    get_comment = State()
 
-    search = State()
+    add_date = State()
+    add_comment = State()
 
     delete = State()
