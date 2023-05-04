@@ -103,5 +103,3 @@ class UserData:
         """ """
         self.cursor.close()
         return self.stat
-
-
